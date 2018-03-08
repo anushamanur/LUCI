@@ -13,4 +13,12 @@ Analyzing the land use / land cover in the Indian subcontinent using Indian Remo
 
 
 ### Dataset
-This implementation uses the orthorectified multi-spectral Resourcesat- 1, Advanced Wide Field Sensor (AWiFS) which  operates in three spectral bands in VNIR and one band in SWIR with 56 metre spatial resolution and a combined swath of 730 km achieved through two AWiFS cameras. Th dataset can be obtained at Bhuvan- ISRO's geoportal and the gateway to Indian earth observation.
+This implementation uses the orthorectified multi-spectral Resourcesat- 1, Advanced Wide Field Sensor (AWiFS) data, which  operates in three spectral bands in VNIR and one band in SWIR with 56 metre spatial resolution and a combined swath of 730 km achieved through two AWiFS cameras. Th dataset can be obtained at Bhuvan- ISRO's geoportal and the gateway to Indian earth observation.
+
+### Tools and Technologies used
+Python and its various toolkits have been used in this implementation.
+* Keras - a high-level neural networks API, capable of running on top of TensorFlow.
+* Numpy - a fundamental package for scientific computing with Python.
+* Scikit-learn - a machine learning library for Python.
+* OpenCV - an open source computer vision library
+
