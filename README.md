@@ -1,6 +1,6 @@
 # LUCI
 
-### LUCI : Land use change analysis of the Indian subcontinent using machine learning techniques
+### LUCI : Land use change analysis of the Indian subcontinent using machine learning 
 
 ### About
 Analyzing the land use / land cover in the Indian subcontinent using Indian Remote Sensing (IRS) data while applying machine learning techniques
