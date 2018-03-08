@@ -22,3 +22,8 @@ Python and its various toolkits have been used in this implementation.
 * Scikit-learn - a machine learning library for Python.
 * OpenCV - an open source computer vision library
 
+### Implementation
+The following are the steps followed in the implementation of this project.
+1. The obtained images are 4 single band images. They are normalized using image-magick. Some structure can be seen after normalization ( norm.sh ).
+2. For better visual perception, false color is added ( addfalse.py ).
+3. 
