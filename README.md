@@ -26,4 +26,4 @@ Python and its various toolkits have been used in this implementation.
 The following are the steps followed in the implementation of this project.
 1. The obtained images are 4 single band images. They are normalized using image-magick. Some structure can be seen after normalization ( norm.sh ).
 2. For better visual perception, false color is added ( addfalse.py ).
-3. K-means is applied to segment the coloured images.  
+3. K-means is applied to segment the coloured images. labeling is done manually by refering to the ground truth images (kmeans.py). 
