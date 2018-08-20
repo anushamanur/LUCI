@@ -13,7 +13,7 @@ Analyzing the land use / land cover in the Indian subcontinent using Indian Remo
 
 
 ### Dataset
-This implementation uses the orthorectified multi-spectral Resourcesat- 1, Advanced Wide Field Sensor (AWiFS) unlabeled data, which  operates in three spectral bands in VNIR and one band in SWIR with 56 metre spatial resolution and a combined swath of 730 km achieved through two AWiFS cameras. Th dataset can be obtained at Bhuvan- ISRO's geoportal and the gateway to Indian earth observation.
+This implementation uses the orthorectified multi-spectral Resourcesat- 1, Advanced Wide Field Sensor (AWiFS) unlabeled data, which  operates in three spectral bands in VNIR and one band in SWIR with 56 metre spatial resolution and a combined swath of 730 km achieved through two AWiFS cameras. The dataset can be obtained at Bhuvan- ISRO's geoportal and the gateway to Indian earth observation.
 
 ### Tools and Technologies used
 Python and its various toolkits have been used in this implementation.
@@ -26,5 +26,5 @@ Python and its various toolkits have been used in this implementation.
 The following are the steps followed in the implementation of this project.
 1. The obtained images are 4 single band images. They are normalized using image-magick. Some structure can be seen after normalization ( norm.sh ).
 2. For better visual perception, false color is added ( addfalse.py ).
-3. K-means is applied to segment the coloured images. labeling is done manually by refering to the ground truth images (kmeans.py). 
+3. K-means is applied to segment the coloured images. Labeling is done manually by refering to the ground truth images (kmeans.py). 
 4. To obtain better accuracy, pixelwise labeling is done by considering the region of interest (ROI) and obtaining the range of intensity values for each terrain across the 4 bands (roi.py).
