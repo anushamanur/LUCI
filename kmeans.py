@@ -1,3 +1,5 @@
+# Applying k-means
+# Usage : python kmeans.py -i img.jpg -n num_of_segments
 #!/usr/bin/env python
 
 import cv2
@@ -32,6 +34,7 @@ if __name__=="__main__":
     import argparse
     import sys
     ap = argparse.ArgumentParser()
+    # Take in image and number of clusters from user
     ap.add_argument("-i", "--image", required = True, help = "Path to the image")
     ap.add_argument("-n", "--segments", required = False, type = int,
         help = "# of clusters")
@@ -49,9 +52,11 @@ if __name__=="__main__":
     
     
 	cv2.imshow("segmented.png",result)
-	cv2.imwrite("segmented.png",result)
-	#print result.shape
 	
+	# Segmented image
+	cv2.imwrite("segmented.png",result)
+	
+	# Extracted clusters
 	res=seg.extractComponent(result,label,0)
 	cv2.imwrite("extracted0.png",res)
 	
