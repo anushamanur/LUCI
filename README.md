@@ -17,10 +17,13 @@ This implementation uses the orthorectified multi-spectral Resourcesat- 1, Advan
 
 ### Tools and Technologies used
 Python and its various toolkits have been used in this implementation.
+* TensorFlow - a computational framework for building machine learning models.
 * Keras - a high-level neural networks API, capable of running on top of TensorFlow.
 * Numpy - a fundamental package for scientific computing with Python.
 * Scikit-learn - a machine learning library for Python.
-* OpenCV - an open source computer vision library
+* OpenCV - an open source computer vision library.
+* ImageMagick - An open source software used to work with images.
+* GIMP -  An open source image editor.
 
 ### Implementation
 The following are the steps followed in the implementation of this project.
