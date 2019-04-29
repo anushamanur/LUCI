@@ -34,4 +34,4 @@ The following are the steps followed in the implementation of this project.
 5. Each image is read and pixel-wise labeling is done manually (rdpix.py).
 6. The data is passed through classifier and the model is stored (classifier.py).
 7. The saved model is loaded and image is predicted for the testing dataset (test.py).
-8. Create an image from the predicted labels (addcolor.py).
+8. Create an image from the predicted labels and stitch multiple images together to obtain a terrain map (addcolor.py).
