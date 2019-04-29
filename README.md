@@ -32,3 +32,5 @@ The following are the steps followed in the implementation of this project.
 3. K-means is applied to segment the coloured images. Labeling is done manually by refering to the ground truth images (kmeans.py). 
 4. To obtain better accuracy, pixelwise labeling is done by considering the region of interest (ROI) and obtaining the range of intensity values for each terrain across the 4 bands (roi.py).
 5. Each image is read and pixel-wise labeling is done manually (rdpix.py)
+6. The data is passed through classifier and the model is stored. (classifier.py)
+7. The saved model is loaded and image is predicted for the testing dataset (test.py)
